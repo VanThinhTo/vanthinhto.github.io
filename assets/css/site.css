@@ -7,6 +7,15 @@
   --bg: #fff;
 }
 
+:root[data-theme="dark"] {
+  --text: #f1f5f9;
+  --muted: #cbd5e1;
+  --light: #94a3b8;
+  --rule: #334155;
+  --accent: #60a5fa;
+  --bg: #101418;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -75,15 +84,29 @@ a:hover {
 .social-links {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   gap: 12px;
   margin-top: 8px;
   font-size: 0.95rem;
 }
 
+.theme-toggle {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  cursor: pointer;
+  font: inherit;
+}
+
+.theme-toggle:hover {
+  text-decoration: underline;
+}
+
 .navbar {
   border-top: 1px solid var(--rule);
   border-bottom: 1px solid var(--rule);
-  background: #fff;
+  background: var(--bg);
 }
 
 .navbar-list {
@@ -98,7 +121,7 @@ a:hover {
 .navbar-link {
   display: block;
   padding: 14px 22px 13px 0;
-  color: #222;
+  color: var(--text);
   font-size: 0.82rem;
   font-weight: 600;
   letter-spacing: 0.06rem;
