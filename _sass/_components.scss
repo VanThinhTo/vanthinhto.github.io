@@ -208,6 +208,23 @@ ul.task-list input[type="checkbox"] {
         }
       }
     }
+
+    .social-theme-toggle {
+      padding: 0;
+      margin: 0 0 0 0.75rem;
+      border: 0;
+      background: transparent;
+      color: var(--global-text-color);
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 1.2;
+      vertical-align: baseline;
+
+      &:hover {
+        color: var(--global-theme-color);
+        text-decoration: none;
+      }
+    }
   }
 
   .contact-note {
