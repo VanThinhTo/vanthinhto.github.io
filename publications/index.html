@@ -3,101 +3,88 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Publications - Van-Thinh To</title>
-    <style>
-      body {
-        margin: 0;
-        font-family:
-          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-        color: #1f2933;
-        background: #f7f8fa;
-        line-height: 1.62;
-      }
-
-      nav,
-      main {
-        max-width: 980px;
-        margin: 0 auto;
-        padding: 24px;
-      }
-
-      nav {
-        display: flex;
-        gap: 16px;
-        flex-wrap: wrap;
-        border-bottom: 1px solid #d8dee6;
-      }
-
-      a {
-        color: #0f766e;
-        text-decoration: none;
-      }
-
-      a:hover {
-        text-decoration: underline;
-      }
-
-      h1 {
-        font-size: 2.6rem;
-        margin: 24px 0;
-        letter-spacing: 0;
-      }
-
-      li {
-        margin-bottom: 16px;
-      }
-    </style>
+    <title>Publications | Van-Thinh To</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:400,300,600"
+      rel="stylesheet"
+      type="text/css"
+    >
+    <link rel="stylesheet" href="/assets/css/site.css">
   </head>
   <body>
-    <nav>
-      <a href="/">About</a>
-      <a href="/publications/">Publications</a>
-      <a href="/projects/">Projects</a>
-      <a href="/cv/">CV</a>
-    </nav>
-    <main>
-      <h1>Publications</h1>
-      <ol>
-        <li>
-          Van Nguyen, P.-C., To, V.-T. et al. SynCat: molecule-level attention graph neural
-          network for precise reaction classification. <em>Digital Discovery</em>, 2026.
-        </li>
-        <li>
-          Phan, T.-M., Phan, T.-L., Van-Nguyen, P.-C., Le, H. S. L., To, V.-T. et al. ProQSAR:
-          A Modular and Reproducible Framework for Small-Data QSAR Modeling with Fit-and-Use
-          Models. <em>Journal of Cheminformatics</em>, accepted.
-        </li>
-        <li>
-          To, V.-T. et al. KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance
-          Molecular Property Predictions. <em>Journal of Chemical Information and Modeling</em>,
-          2025.
-        </li>
-        <li>
-          Trinh, T.-C., Phan, T.-L., To, V.-T. et al. Synergy of advanced machine learning and
-          deep neural networks with consensus molecular docking for virtual screening of
-          anaplastic lymphoma kinase inhibitors. <em>Journal of Computer-Aided Molecular Design</em>,
-          2025.
-        </li>
-        <li>
-          To, V.-T. et al. Innovative virtual screening of PD-L1 inhibitors: the synergy of
-          molecular similarity, neural networks and GNINA docking. <em>Future Medicinal
-          Chemistry</em>, 2024.
-        </li>
-        <li>
-          Phan, T.-L. et al. Novel machine learning approach toward classification model of
-          HIV-1 integrase inhibitors. <em>RSC Advances</em>, 2024.
-        </li>
-        <li>
-          Truong, G.-B. et al. Discovery of VEGFR-2 inhibitors employing Junction Tree
-          Variational Encoder with Local Latent Space Bayesian Optimization and Gradient Ascent
-          Exploration. <em>ACS Omega</em>, 2024.
-        </li>
-        <li>
-          Phan, T.-L. et al. Study on the effect of molecular fingerprints on the performance of
-          machine learning model predicting HIV integrase bioactivity. <em>Vietnamese Pharmacy
-          Journal</em>, 2023.
-        </li>
-      </ol>
-    </main>
+    <div class="container">
+      <section class="header">
+        <div class="header-grid">
+          <a href="/"><img class="profile" src="/assets/img/prof_pic.jpg" alt="Van-Thinh To"></a>
+          <div class="main-description">
+            <h1>Van-Thinh To</h1>
+            <p>Publications in cheminformatics, molecular machine learning, and virtual screening</p>
+            <p>
+              <a href="https://scholar.google.com/citations?user=VcxHOpAAAAAJ&hl=en&oi=ao">Google Scholar</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="/#about">About Me</a></li>
+          <li><a class="navbar-link" href="/#publications">Publications</a></li>
+          <li><a class="navbar-link" href="/#cv">CV</a></li>
+          <li><a class="navbar-link" href="/#mentorship">Mentorship</a></li>
+          <li><a class="navbar-link" href="/#blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <section class="docs-section">
+          <h4>Publications</h4>
+          <ol>
+            <li>
+              <span class="pub-title">SynCat: molecule-level attention graph neural network for precise reaction classification</span><br>
+              <span class="pub-meta">Van Nguyen, P.-C., To, V.-T. et al. Digital Discovery. 2026.</span>
+              <a href="https://doi.org/10.1039/D5DD00367A">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">ProQSAR: A Modular and Reproducible Framework for Small-Data QSAR Modeling with Fit-and-Use Models</span><br>
+              <span class="pub-meta">Phan, T.-M., Phan, T.-L., Van-Nguyen, P.-C., Le, H. S. L., To, V.-T. et al. Journal of Cheminformatics. Accepted.</span>
+            </li>
+            <li>
+              <span class="pub-title">KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance Molecular Property Predictions</span><br>
+              <span class="pub-meta">To, V.-T. et al. Journal of Chemical Information and Modeling. 2025.</span>
+              <a href="https://doi.org/10.1021/acs.jcim.5c01068">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">Synergy of advanced machine learning and deep neural networks with consensus molecular docking for virtual screening of anaplastic lymphoma kinase inhibitors</span><br>
+              <span class="pub-meta">Trinh, T.-C., Phan, T.-L., To, V.-T. et al. Journal of Computer-Aided Molecular Design. 2025.</span>
+              <a href="https://doi.org/10.1007/s10822-025-00657-6">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">Innovative virtual screening of PD-L1 inhibitors: the synergy of molecular similarity, neural networks and GNINA docking</span><br>
+              <span class="pub-meta">To, V.-T. et al. Future Medicinal Chemistry. 2024.</span>
+              <a href="https://doi.org/10.1080/17568919.2024.2389773">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">Novel machine learning approach toward classification model of HIV-1 integrase inhibitors</span><br>
+              <span class="pub-meta">Phan, T.-L., Trinh, T.-C., To, V.-T. et al. RSC Advances. 2024.</span>
+              <a href="https://doi.org/10.1039/D4RA02231A">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">Discovery of VEGFR-2 inhibitors employing Junction Tree Variational Encoder with Local Latent Space Bayesian Optimization and Gradient Ascent Exploration</span><br>
+              <span class="pub-meta">Truong, G.-B., Pham, T.-A., To, V.-T. et al. ACS Omega. 2024.</span>
+              <a href="https://doi.org/10.1021/acsomega.4c07689">[Paper]</a>
+            </li>
+            <li>
+              <span class="pub-title">Study on the effect of molecular fingerprints on the performance of machine learning model predicting HIV integrase bioactivity</span><br>
+              <span class="pub-meta">Phan, T.-L., Pham, T.-A., To, V.-T. et al. Vietnamese Pharmacy Journal. 2023.</span>
+            </li>
+          </ol>
+        </section>
+      </main>
+
+      <footer class="footer">Van-Thinh To - Publications</footer>
+    </div>
   </body>
 </html>
