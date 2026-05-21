@@ -13,3 +13,6 @@ assets/rendercv/rendercv_output/*.typ
 Gemfile.lock
 node_modules/
 vendor
+cv.pdf
+fix.md
+temp.md
