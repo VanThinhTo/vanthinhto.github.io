@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects - Van-Thinh To</title>
+    <style>
+      body {
+        margin: 0;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: #1f2933;
+        background: #f7f8fa;
+        line-height: 1.62;
+      }
+
+      nav,
+      main {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 24px;
+      }
+
+      nav {
+        display: flex;
+        gap: 16px;
+        flex-wrap: wrap;
+        border-bottom: 1px solid #d8dee6;
+      }
+
+      a {
+        color: #0f766e;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      h1 {
+        font-size: 2.6rem;
+        margin: 24px 0;
+        letter-spacing: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 18px;
+      }
+
+      article {
+        background: #fff;
+        border: 1px solid #d8dee6;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+
+      img {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+        display: block;
+      }
+
+      .body {
+        padding: 18px;
+      }
+
+      h2 {
+        margin: 0 0 8px;
+        font-size: 1.15rem;
+      }
+
+      p {
+        color: #5f6b7a;
+      }
+
+      @media (max-width: 720px) {
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="/">About</a>
+      <a href="/publications/">Publications</a>
+      <a href="/projects/">Projects</a>
+      <a href="/cv/">CV</a>
+    </nav>
+    <main>
+      <h1>Projects</h1>
+      <div class="grid">
+        <article>
+          <img src="/assets/img/projects/kgg.png" alt="KGG project">
+          <div class="body">
+            <h2>KGG</h2>
+            <p>Knowledge-guided graph self-supervised learning for molecular property prediction.</p>
+          </div>
+        </article>
+        <article>
+          <img src="/assets/img/projects/benchmarking.jpg" alt="Bioactivity benchmarking">
+          <div class="body">
+            <h2>Bioactivity Benchmarking Data</h2>
+            <p>Large-scale PubChem and ChEMBL curation for target-specific screening benchmarks.</p>
+          </div>
+        </article>
+        <article>
+          <img src="/assets/img/projects/mol2dsimi.jpg" alt="Mol2DSimi">
+          <div class="body">
+            <h2>Mol2DSimi</h2>
+            <p>Similarity screening and fingerprint benchmarking for ligand-based virtual screening.</p>
+          </div>
+        </article>
+        <article>
+          <img src="/assets/img/projects/molad.jpg" alt="MolAD">
+          <div class="body">
+            <h2>MolAD</h2>
+            <p>Applicability-domain analysis for QSAR and virtual screening models.</p>
+          </div>
+        </article>
+      </div>
+    </main>
+  </body>
+</html>

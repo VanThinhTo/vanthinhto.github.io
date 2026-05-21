@@ -1,0 +1,300 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Van-Thinh To</title>
+    <meta
+      name="description"
+      content="Van-Thinh To - Erasmus Mundus scholar in bioinformatics and chemistry researching machine learning, cheminformatics, and drug discovery."
+    >
+    <style>
+      :root {
+        --text: #1f2933;
+        --muted: #5f6b7a;
+        --line: #d8dee6;
+        --accent: #0f766e;
+        --bg: #f7f8fa;
+        --panel: #ffffff;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family:
+          Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        color: var(--text);
+        background: var(--bg);
+        line-height: 1.6;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+
+      header,
+      main,
+      footer {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0 24px;
+      }
+
+      nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 18px;
+        padding: 22px 24px;
+        border-bottom: 1px solid var(--line);
+        background: rgba(247, 248, 250, 0.92);
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        backdrop-filter: blur(12px);
+      }
+
+      nav .brand {
+        font-weight: 700;
+        color: var(--text);
+      }
+
+      nav .links {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        gap: 16px;
+        font-size: 0.95rem;
+      }
+
+      .hero {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 220px;
+        gap: 44px;
+        padding-top: 72px;
+        padding-bottom: 42px;
+        align-items: center;
+      }
+
+      h1 {
+        margin: 0 0 12px;
+        font-size: clamp(2.3rem, 5vw, 4.4rem);
+        line-height: 1.04;
+        letter-spacing: 0;
+      }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: 1.45rem;
+      }
+
+      h3 {
+        margin: 0 0 8px;
+        font-size: 1.05rem;
+      }
+
+      .subtitle {
+        margin: 0 0 22px;
+        color: var(--muted);
+        font-size: 1.15rem;
+        max-width: 760px;
+      }
+
+      .profile {
+        width: 220px;
+        aspect-ratio: 1;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 1px solid var(--line);
+        background: var(--panel);
+      }
+
+      .actions,
+      .social {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        align-items: center;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40px;
+        padding: 9px 14px;
+        border-radius: 6px;
+        border: 1px solid var(--accent);
+        background: var(--accent);
+        color: #fff;
+        font-weight: 650;
+      }
+
+      .button.secondary {
+        background: transparent;
+        color: var(--accent);
+      }
+
+      section {
+        padding: 30px 0;
+        border-top: 1px solid var(--line);
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 16px;
+      }
+
+      .item {
+        background: var(--panel);
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        padding: 18px;
+      }
+
+      .item p,
+      li {
+        color: var(--muted);
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      footer {
+        color: var(--muted);
+        padding-top: 30px;
+        padding-bottom: 44px;
+        border-top: 1px solid var(--line);
+        font-size: 0.95rem;
+      }
+
+      @media (max-width: 760px) {
+        nav {
+          align-items: flex-start;
+          flex-direction: column;
+        }
+
+        nav .links {
+          justify-content: flex-start;
+        }
+
+        .hero {
+          grid-template-columns: 1fr;
+          padding-top: 44px;
+        }
+
+        .profile {
+          width: min(260px, 100%);
+        }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a class="brand" href="/">Van-Thinh To</a>
+      <div class="links">
+        <a href="/publications/">Publications</a>
+        <a href="/projects/">Projects</a>
+        <a href="/cv/">CV</a>
+        <a href="/assets/pdf/cv.pdf">PDF</a>
+      </div>
+    </nav>
+
+    <header class="hero">
+      <div>
+        <h1>Van-Thinh To</h1>
+        <p class="subtitle">
+          Erasmus Mundus scholar in bioinformatics and chemistry working on machine learning,
+          cheminformatics, molecular representation, and virtual screening for drug discovery.
+        </p>
+        <div class="actions">
+          <a class="button" href="/cv/">View CV</a>
+          <a class="button secondary" href="/publications/">Publications</a>
+          <a class="button secondary" href="/projects/">Projects</a>
+        </div>
+      </div>
+      <img class="profile" src="/assets/img/prof_pic.jpg" alt="Van-Thinh To">
+    </header>
+
+    <main>
+      <section>
+        <h2>About</h2>
+        <p>
+          I am a double-degree master's student in Bioinformatics at University Paris Cite
+          and Chemistry at the University of Milan. I previously completed a five-year
+          Bachelor of Pharmacy at the University of Medicine and Pharmacy at Ho Chi Minh City,
+          where my thesis focused on knowledge-guided graph self-supervised learning for
+          molecular property prediction.
+        </p>
+        <p>
+          My current work includes automated retrieval of bioactivity data from PubChem and
+          ChEMBL, dark chemical matter selection, benchmarking data sets for virtual screening,
+          and target-specific scoring functions for drug discovery.
+        </p>
+      </section>
+
+      <section>
+        <h2>Research Interests</h2>
+        <div class="grid">
+          <div class="item">
+            <h3>Molecular Representation</h3>
+            <p>Knowledge-guided graph learning, orbital information, and molecular hierarchy.</p>
+          </div>
+          <div class="item">
+            <h3>Virtual Screening</h3>
+            <p>Target-specific scoring, curated bioactivity data, and benchmarking workflows.</p>
+          </div>
+          <div class="item">
+            <h3>Generative Molecules</h3>
+            <p>Evaluation and optimization of generated molecules for target-specific activity.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Selected Publications</h2>
+        <ul>
+          <li>
+            To, V.-T. et al. KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance
+            Molecular Property Predictions. <em>Journal of Chemical Information and Modeling</em>.
+          </li>
+          <li>
+            To, V.-T. et al. Innovative virtual screening of PD-L1 inhibitors. <em>Future
+            Medicinal Chemistry</em>.
+          </li>
+          <li>
+            Phan, T.-L. et al. Novel machine learning approach toward classification model of
+            HIV-1 integrase inhibitors. <em>RSC Advances</em>.
+          </li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>Links</h2>
+        <div class="social">
+          <a href="mailto:van-thinh.to@etu.u-paris.fr">Email</a>
+          <a href="https://github.com/VanThinhTo">GitHub</a>
+          <a href="https://www.linkedin.com/in/thinhtovan/">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=VcxHOpAAAAAJ">Google Scholar</a>
+          <a href="https://orcid.org/0000-0002-7640-0807">ORCID</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>Van-Thinh To - Bioinformatics, cheminformatics, and drug discovery.</footer>
+  </body>
+</html>
