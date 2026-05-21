@@ -91,16 +91,41 @@ a:hover {
 }
 
 .theme-toggle {
+  width: 1.45rem;
+  height: 1.45rem;
   padding: 0;
   border: 0;
   background: transparent;
   color: var(--accent);
   cursor: pointer;
-  font: inherit;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  vertical-align: -0.18rem;
 }
 
 .theme-toggle:hover {
-  text-decoration: underline;
+  color: var(--text);
+}
+
+.theme-toggle:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.theme-toggle-icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  display: block;
+}
+
+.theme-toggle-icon path {
+  fill: currentColor;
+}
+
+.theme-toggle-icon circle {
+  fill: var(--bg);
 }
 
 .navbar {
