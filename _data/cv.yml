@@ -1,189 +1,229 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Van-Thinh To
+  label: Erasmus Mundus Scholar in Bioinformatics and Chemistry
+  email: van-thinh.to@etu.u-paris.fr
+  location: Paris, France
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  website: https://vanthinhto.github.io
+  summary: >
+    Double-degree master's student in bioinformatics and chemistry working on
+    machine learning, cheminformatics, molecular representation, and virtual
+    screening for drug discovery.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: VanThinhTo
     - network: LinkedIn
-      username: example
+      username: thinhtovan
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Paris
+    countryCode: FR
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: University Paris Cite
+        location: Paris, France
+        url: https://u-paris.fr/en/
+        area: Bioinformatics
+        studyType: Master of Bioinformatics
+        start_date: 2025
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
+          - Erasmus Mundus Scholar in a double-degree master's program.
+          - GPA: 18.05 / 20.00.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: University of Milan
+        location: Milan, Italy
+        url: https://www.unimi.it/it
+        area: Chemistry
+        studyType: Master of Chemistry
+        start_date: 2025
+        end_date: 2027
         highlights:
-          - Description 1.
-          - Description 2.
+          - Double-degree curriculum paired with bioinformatics training.
+          - GPA: 18.05 / 20.00.
+
+      - institution: University of Medicine and Pharmacy at Ho Chi Minh City
+        location: Ho Chi Minh City, Vietnam
+        url: https://ump.edu.vn/
+        area: "Thesis: A Knowledge-Guided Graph Self-Supervised Learning for Molecular Property Predictions"
+        studyType: Bachelor of Pharmacy
+        start_date: 2019
+        end_date: 2024
+        highlights:
+          - GPA: 3.31 / 4.00; ranked in the top 4%.
+          - Thesis grade: 10 / 10.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: University Paris Cite
+        position: Master Researcher
+        location: Paris, France
+        start_date: 2025-09
+        end_date: present
+        summary: >
+          Working with Prof. Olivier Taboureau and Assistant Prof. Viet-Khoa
+          Tran-Nguyen on data-centric machine learning for drug discovery.
         highlights:
-          - Relativity
-          - Description 2.
+          - Automated large-scale retrieval of bioactivity data from PubChem and ChEMBL across protein targets.
+          - Identified dark chemical matter compounds for assumed-inactive sets.
+          - Built benchmarking data sets and workflows for virtual screening studies.
+          - Started target-specific machine learning scoring functions for cystathionine beta-synthase inhibitors.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Medicine and Pharmacy at Ho Chi Minh City
+        position: Undergraduate Researcher
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2022-06
+        end_date: 2025-08
+        summary: >
+          Worked with Assoc. Prof. Tuyen Ngoc Truong and PhD Researcher
+          Tieu-Long Phan on machine learning and cheminformatics for virtual
+          screening and molecular representation.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Developed generative AI scoring workflows for dual EGFR and VEGFR targets.
+          - Introduced orbital-information pretext tasks for self-supervised molecular representation learning.
+          - Built applicability-domain analyses for HIV integrase virtual screening models.
+          - Combined molecular similarity, neural networks, and GNINA docking for PD-L1 inhibitor discovery.
+          - Trained ensemble and graph-based models for ALK inhibitor virtual screening.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: University of Medicine and Pharmacy at Ho Chi Minh City
+        position: Contracted Teaching Assistant and Research Mentor
+        location: Ho Chi Minh City, Vietnam
+        start_date: 2024-08
+        end_date: 2025-08
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
-
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Wrote four university-funded research proposals, each awarded 1200 USD.
+          - Prepared computer-aided drug design training materials covering RDKit, fingerprints, descriptors, ANN, and GNN.
+          - Mentored an undergraduate thesis on self-supervised learning.
+          - Taught practical organic chemistry, ChemDraw, laboratory techniques, and synthesis skills.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: Cheminformatics
+        keywords:
+          - RDKit
+          - molecular fingerprints
+          - molecular descriptors
+          - PubChem
+          - ChEMBL
+          - PDB
+          - PyMOL
+          - GNINA
+          - DeepCoy
+          - IRDiff
+
+      - name: Machine Learning
+        keywords:
+          - scikit-learn
+          - TensorFlow
+          - PyTorch
+          - graph neural networks
+          - QSAR
+          - virtual screening
+          - self-supervised learning
+          - generative AI
+
+      - name: Programming
+        keywords:
+          - Python
+          - R
+          - C
+          - Linux
+          - Git
+          - Pytest
+          - package management
+          - deployment
 
     Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Vietnamese
+        summary: Native
 
       - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+        summary: IELTS Academic 7.0 (November 2024)
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+      - name: Bioactivity Benchmarking from PubChem and ChEMBL
+        summary: >
+          Automated retrieval and curation workflows for large-scale
+          protein-target bioactivity data used in virtual screening studies.
+
+      - name: Knowledge-Guided Graph Self-Supervised Learning
+        summary: >
+          Molecular representation learning with hierarchical graphs and
+          orbital-information guidance for property prediction.
+
+      - name: Virtual Screening for PD-L1, HIV Integrase, and ALK
+        summary: >
+          Machine learning and docking workflows spanning molecular similarity,
+          neural networks, consensus docking, and applicability-domain analysis.
+
+    Publications:
+      - title: "KGG: Knowledge-Guided Graph Self-Supervised Learning to Enhance Molecular Property Predictions"
+        publisher: Journal of Chemical Information and Modeling
+        releaseDate: 2025-01-01
+        url: https://doi.org/10.1021/acs.jcim.5c01068
+        summary: Chemical-knowledge-aware self-supervised learning for molecular property prediction.
+
+      - title: Synergy of advanced machine learning and deep neural networks with consensus molecular docking for virtual screening of anaplastic lymphoma kinase inhibitors
+        publisher: Journal of Computer-Aided Molecular Design
+        releaseDate: 2025-01-02
+        url: https://doi.org/10.1007/s10822-025-00657-6
+        summary: Ensemble virtual screening pipeline for ALK inhibitors.
+
+      - title: "Innovative virtual screening of PD-L1 inhibitors: the synergy of molecular similarity, neural networks and GNINA docking"
+        publisher: Future Medicinal Chemistry
+        releaseDate: 2024-01-01
+        url: https://doi.org/10.1080/17568919.2024.2389773
+        summary: Integrated neural and docking workflow that identified repurposing hits for PD-L1.
+
+      - title: Novel machine learning approach toward classification model of HIV-1 integrase inhibitors
+        publisher: RSC Advances
+        releaseDate: 2024-01-02
+        url: https://doi.org/10.1039/D4RA02231A
+        summary: Classification modeling for HIV-1 integrase inhibitor discovery.
+
+    Talks:
+      - bullet: >
+          2025: *KGG: Knowledge-Guided Graph Self-Supervised Learning to
+          Enhance Molecular Property Predictions*. 41st Scientific and Technical
+          Conference of Pharmacy. Oral presentation.
+      - bullet: >
+          2023: *Application of Molecular Similarity and Artificial Neural
+          Networks for PD-L1 Inhibitors Virtual Screening*. ECMC2023: 9th
+          International Electronic Conference on Medicinal Chemistry. Poster
+          presentation.
+
+    Awards:
+      - title: Pharmacy Scholarship for Elite Students
+        awarder: University of Medicine and Pharmacy at Ho Chi Minh City
+        date: 2024
+        summary: >
+          5000 USD total support across five years, covering full tuition;
+          awarded to a top 10% cohort.
+
+      - title: Odon Vallet Scholarship
+        awarder: Odon Vallet Foundation
+        date: 2024
+        summary: Awarded to outstanding students in Vietnam.
+
+      - title: Second Prize, Vietnamese Chemistry Olympiad
+        awarder: National Chemistry Olympiad
+        date: 2019
+        summary: Ranked 42nd overall among more than 400 participants nationwide.
+
+    Training:
+      - bullet: >
+          September 2023: Vienna Summer School on Drug Design, Austria.
+          Training in docking, pharmacophore modeling, molecular simulation,
+          KNIME, LigandScout, OpenEye, and generative-model concepts in drug
+          discovery.
 
     References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Assoc. Prof. Tuyen Ngoc Truong
+        reference: >
+          University of Medicine and Pharmacy at Ho Chi Minh City, Vietnam.
+          Email: [truongtuyen@ump.edu.vn](mailto:truongtuyen@ump.edu.vn)
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: PhD Researcher Tieu-Long Phan
+        reference: >
+          University Leipzig, Germany.
+          Email: [tieu@bioinf.uni-leipzig.de](mailto:tieu@bioinf.uni-leipzig.de)
