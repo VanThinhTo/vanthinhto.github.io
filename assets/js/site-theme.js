@@ -32,10 +32,42 @@
     updateToggleButtons(theme);
   }
 
+  function initializePublicationFilters() {
+    document.querySelectorAll("[data-publication-browser]").forEach(function (browser) {
+      const buttons = Array.from(browser.querySelectorAll("[data-publication-filter]"));
+      const entries = Array.from(browser.querySelectorAll("[data-publication-entry]"));
+
+      function applyFilter(filter) {
+        buttons.forEach(function (button) {
+          const isActive = button.dataset.publicationFilter === filter;
+          button.classList.toggle("is-active", isActive);
+          button.setAttribute("aria-pressed", isActive ? "true" : "false");
+        });
+
+        entries.forEach(function (entry) {
+          const categories = (entry.dataset.categories || "").split(/\s+/);
+          entry.hidden = filter !== "all" && !categories.includes(filter);
+        });
+      }
+
+      buttons.forEach(function (button) {
+        button.addEventListener("click", function () {
+          applyFilter(button.dataset.publicationFilter);
+        });
+      });
+
+      const initialButton = buttons.find(function (button) {
+        return button.getAttribute("aria-pressed") === "true";
+      });
+      applyFilter(initialButton ? initialButton.dataset.publicationFilter : "highlights");
+    });
+  }
+
   setTheme(getStoredTheme() || "light");
 
   document.addEventListener("DOMContentLoaded", function () {
     updateToggleButtons(document.documentElement.getAttribute("data-theme") || "light");
+    initializePublicationFilters();
 
     document.querySelectorAll("[data-theme-toggle]").forEach(function (button) {
       button.addEventListener("click", function () {
